@@ -11,4 +11,4 @@ var config = {
     scene: [e1]
 };
 
-var game = new Phase.game(config);
+var game = new Phaser.game(config);
