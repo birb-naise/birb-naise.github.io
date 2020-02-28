@@ -6,6 +6,6 @@ class e1 extends Phaser.Scene {
         this.load.image('bg','assets/bg.png');
     }
     create(){
-        this.image = this.add.image(0,0,'bg');
+        this.image = this.add.image(325,550,'bg');
     }
 }
