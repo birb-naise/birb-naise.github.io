@@ -3,7 +3,7 @@ class e1 extends Phaser.Scene {
         super({key: "e1"});
     }
     preload(){
-        this.load.image('mole','assets/bg.png');
+        this.load.image('bg','assets/bg.png');
     }
     create(){
         this.image = this.add.image(0,0,'bg');
