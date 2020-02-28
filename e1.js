@@ -23,8 +23,9 @@ class e1 extends Phaser.Scene {
                            .setInteractive()
                            .on('pointerdown', () => { this.updateHappy(pos+=10); });
         this.image = this.add.image(375,1000,'b_gift');
-        this.image = this.add.image(562,1000,'b_pet');
-
+        const pet_press = this.add.image(562,1000,'b_pet')
+                           .setInteractive()
+                           .on('pointerdown', () => { this.updateHappy(pos-=10); });
         this.updateHappy(pos)
     }
 
@@ -41,6 +42,8 @@ class e1 extends Phaser.Scene {
                            .setInteractive()
                            .on('pointerdown', () => { this.updateHappy(pos+=10); });
         this.image = this.add.image(375,1000,'b_gift');
-        this.image = this.add.image(562,1000,'b_pet');
-    }
+        const pet_press = this.add.image(562,1000,'b_pet')
+                           .setInteractive()
+                           .on('pointerdown', () => { this.updateHappy(pos-=10); });
+}
 }
