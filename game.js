@@ -5,7 +5,7 @@ var config = {
     physics: {
         default: 'arcade',
         arcade: {
-            gavity: {y 200}
+            gavity: {y : 200}
         }
     },
     scene: [e1]
