@@ -3,9 +3,9 @@ class e1 extends Phaser.Scene {
         super({key: "e1"});
     }
     preload(){
-        this.load.image('mole','assets/mole.png');
+        this.load.image('mole','assets/bg.png');
     }
     create(){
-        this.image = this.add.image(400,300,'mole');
+        this.image = this.add.image(0,0,'bg');
     }
 }
