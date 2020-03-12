@@ -6,7 +6,7 @@ class e1 extends Phaser.Scene {
     //load images
     preload(){
         this.load.image('bg','assets/bg.png');
-        this.load.spritesheet('char','assets/pet_sheet.png',378, 464);
+        this.load.spritesheet('char','assets/pet_sheet.png',378, 464, 3);
         //this.load.image('char_m','assets/char_m.png');
         //this.load.image('char_s','assets/char_s.png');
         this.load.image('b_feed','assets/b_feed.png');
